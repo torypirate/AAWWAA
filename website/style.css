@@ -1,0 +1,40 @@
+.box{
+  position: relative;   /* makes this the reference */
+  height: 400px;
+}
+
+.pic{
+  position: absolute;
+  top: 10px;            /* move down */
+  left: 170px;           /* move right */
+  width: 1000px;
+  height: auto;
+}
+.title, .para{
+  text-align: center;
+
+}
+body{
+  margin: 0;
+  background-color: #1b0c17;  /* page background */
+  color: #c5bfbf;               /* text color */
+  font-family:'Courier New', Courier, monospace
+}
+.ready-btn{
+  position: fixed;
+  left: 50%;
+  bottom: 50px;
+  transform: translateX(-50%);
+  z-index: 9999;
+
+  padding: 12px 22px;
+  background: #332626;
+  color: rgb(184, 162, 162);
+  text-decoration:none;
+  border-radius: 10px;
+  font-weight: 1000;
+  transition: 1s;
+}
+.ready-btn:hover{
+  background: #312323;
+}
