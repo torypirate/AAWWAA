@@ -4,18 +4,22 @@
 }
 
 .pic{
-  position: absolute;
-  top: 10px;            /* move down */
-  left: 170px;           /* move right */
-  width: 1000px;
-  height: auto;
+ positon: center;
+ height: auto;
+ max-width: 100%;
+ margin: 0 auto;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+   
 }
 .title, .para{
   text-align: center;
 
 }
 body{
-  margin: 0;
+  margin: 0 auto;
+  width: 100%;
   background-color: #1b0c17;  /* page background */
   color: #c5bfbf;               /* text color */
   font-family:'Courier New', Courier, monospace
